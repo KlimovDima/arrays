@@ -2,13 +2,13 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        tasklessons();
+        lessons();
         task1();
         task2();
         task4();
     }
 
-    public static void tasklessons() {
+    public static void lessons() {
         System.out.println("Урок");
         int[] weights = {90, 91, 93, 92, 85, 87, 88, 89, 0, 0, 0, 0};
         int januaryWeight = weights[0];
@@ -26,7 +26,7 @@ public class Main {
         System.out.println("Задача 1+2");
         int[] numbers = new int[]{1, 2, 3};
         double[] numbersTwo = new double[]{1.57, 7.654, 9.986};
-        int[] myArrive = {1, 2, 3, 4, 5, 6, 7, 8};
+        int[] myArray = {1, 2, 3, 4, 5, 6, 7, 8};
         for (int i = 0; i < numbers.length; i++) {
             if (i == numbers.length - 1) {
                 System.out.println(numbers[i]);
@@ -34,19 +34,19 @@ public class Main {
             }
             System.out.print(numbers[i] + ", ");
         }
-        for (int a = 0; a < numbersTwo.length; a++) {
-            if (a == numbersTwo.length - 1) {
-                System.out.println(numbersTwo[a]);
+        for (int i = 0; i < numbersTwo.length; i++) {
+            if (i == numbersTwo.length - 1) {
+                System.out.println(numbersTwo[i]);
                 break;
             }
-            System.out.print(numbersTwo[a] + ", ");
+            System.out.print(numbersTwo[i] + ", ");
         }
-        for (int b = 0; b < myArrive.length; b++) {
-            if (b == myArrive.length - 1) {
-                System.out.println(myArrive[b]);
+        for (int i = 0; i < myArray.length; i++) {
+            if (i == myArray.length - 1) {
+                System.out.println(myArray[i]);
                 break;
             }
-            System.out.print(myArrive[b] + ", ");
+            System.out.print(myArray[i] + ", ");
         }
     }
 
@@ -54,7 +54,7 @@ public class Main {
         System.out.println("Task 3");
         int[] numbers = new int[]{1, 2, 3};
         double[] numbersTwo = new double[]{1.57, 7.654, 9.986};
-        int[] myArrive = {1, 2, 3, 4, 5, 6, 7, 8};
+        int[] myArray = {1, 2, 3, 4, 5, 6, 7, 8};
         for (int i = numbers.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.println(numbers[i]);
@@ -62,19 +62,19 @@ public class Main {
             }
             System.out.print(numbers[i] + ",");
         }
-        for (int a = numbersTwo.length - 1; a >= 0; a--) {
-            if (a == 0) {
-                System.out.println(numbersTwo[a]);
+        for (int i = numbersTwo.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.println(numbersTwo[i]);
                 break;
             }
-            System.out.print(numbersTwo[a] + ",");
+            System.out.print(numbersTwo[i] + ",");
         }
-        for (int b = myArrive.length - 1; b >= 0; b--) {
-            if (b == 0) {
-                System.out.println(myArrive[b]);
+        for (int i = myArray.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.println(myArray[i]);
                 break;
             }
-            System.out.print(myArrive[b] + ",");
+            System.out.print(myArray[i] + ",");
         }
     }
 
